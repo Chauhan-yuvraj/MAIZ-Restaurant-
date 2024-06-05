@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "dev" : "tailwindcss -i ./src/style.css -o ./src/output.css --watch",
+    "dev": "tailwindcss -i ./src/style.css -o ./src/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "html5-qrcode": "^2.1.5"
   }
 }
