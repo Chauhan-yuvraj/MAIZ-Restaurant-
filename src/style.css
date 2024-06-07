@@ -12,3 +12,6 @@
 .bgtrans{
     background-color: rgba(36,0,19,0.5);
 }
+body{
+    overflow-x: hidden;
+}
