@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    
+  </head>
+  <body>
+    <div class="bg-primary2 h-full font-serif overflow-x-hidden">
+      <div>
+        <img src="/Assets/bg-design.svg" alt="" class="absolute" />
+      </div>
+      <!-- ---------------------------------------- Navigation Bar ------------------------------------------- -->
+      <nav
+        class="flex flex-row w-full justify-between pt-10 px-5 lg:px-10 items-start"
+      >
+        <div
+          class="flex flex-col justify-center items-center cursor-pointer z-20"
+        >
+          <img src="/Assets/logo2.svg" alt="MAIZ logo" class="z-20" />
+          <div class="text-primary text-xl tracking-wider">MAIZ</div>
+        </div>
+        <div class="lg:flex w-full justify-around z-20 hidden">
+          <ul class="flex lg:w-[60%] justify-around text-white text-xl">
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Menu</li>
+            <li class="cursor-pointer">Venue</li>
+            <li class="cursor-pointer">
+              <a
+                href="./pages/AboutUs.html"
+                class="cursor-pointer"
+                target="_blank"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex">
+          <a
+            href="./pages/QRcode.html"
+            class="w-full h-full flex z-20"
+            target="_blank"
+          >
+            <input
+              type="button"
+              value="Scan & Order"
+              class="bg-primary w-min px-5 text-xl cursor-pointer text-primary2 hover:bg-primary2 hover:text-primary duration-150 border-2 border-primary active:text-primary active:bg-primary2"
+            />
+            <img
+              src="/Assets/btn-side.svg"
+              alt="Button side design"
+              class="h-[3.5rem]"
+            />
+          </a>
+        </div>
+      </nav>
+
+      <!-- ---------------------------------------- Hero Section ------------------------------------------- -->
+      <div
+        class="flex flex-col m-10 lg:flex-row lg:gap-10 "
+      >
+        <div class="flex flex-col gap-10 lg:gap-0 basis-1/2">
+          <div class="flex flex-col gap-10">
+            <div class="text-primary font-semibold text-4xl">
+              Our Story
+            </div>
+            <div class="text-xl ">
+              We're an absolute leader in the international cuisine-themed
+              restaurants.
+            </div>
+          </div>
+          <div class="flex items-center">
+            <div class="slider relative w-full overflow-hidden z-10">
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg"
+                  alt="Restaurant interior"
+                  draggable="false"
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Dish served in the restaurant"
+                  draggable="false"
+
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Table setting"
+                  draggable="false"
+
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/1860204/pexels-photo-1860204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Restaurant ambiance"
+                  draggable="false"
+
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Delicious dish"
+                  draggable="false"
+
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/416471/pexels-photo-416471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Chef preparing food"
+                  draggable="false"
+
+
+                />
+              </div>
+              <div class="item">
+                <img
+                  src="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  alt="Dining experience"
+                  draggable="false"
+
+                />
+              </div>
+              <input type="button" value="<" id="prev" class="block" />
+              <input type="button" value=">" id="next" class="block" />
+            </div>
+          </div>
+        </div>
+
+        <div class="italic basis-1/2 h-full lg:flex lg:flex-col lg:w-full lg:justify-center lg:gap-10 lg:text-xl">
+          <div class="text-white text-xl italic">
+            One of the best restaurants in Saudi Arabia.
+          </div>
+          <div class="flex flex-col lg:gap-10  text-justify justify-start">
+            <div class="">
+              Your one direction to high-quality Saudi feasts, since 1998 we
+              served in Saudi Arabia.
+            </div>
+            <div class="">
+              Locals who are proud of the country and want to introduce it to
+              visitors from around the world. We are perfectly positioned to
+              provide our guests with an extraordinary health experience unlike
+              any they've ever tasted. We can confidently claim that our menu is
+              unlike anything else offered in the industry.
+            </div>
+            <div class="">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum finibus mauris nec tincidunt varius. Ut sagittis, lorem
+              at bibendum ornare, mauris neque venenatis justo, ut gravida mi
+              neque eu lorem. Vestibulum auctor leo sit amet vulputate mollis.
+              Curabitur ac lorem felis. Morbi ullamcorper maximus lorem.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestone -->
+       <div class=" h-full  bg-primary2 py-10">
+      <div class="bg-primary mx-10  md:flex basis-2">
+        <div class="p-10 flex flex-col gap-5">
+          <!-- underline -->
+          <div class="relative w-full">
+            <div
+              class="border-solid border-[2px] h-[5px] bg-primary2 border-primary2 absolute w-[25%]"
+            ></div>
+            <div
+              class="border-dotted border-[1px] h-[0.001px] border-primary2/50"
+            ></div>
+          </div>
+          <!--  -->
+          <div class="text-white flex flex-col gap-3">
+            <div class="text-4xl font-mono">1998</div>
+            <div class="">Milestone One</div>
+            <div class="text-primary2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div class="p-10 flex flex-col gap-5">
+          <!-- underline -->
+          <div class="relative w-full">
+            <div
+              class="border-solid border-[2px] h-[5px] bg-primary2 border-primary2 absolute w-[25%]"
+            ></div>
+            <div
+              class="border-dotted border-[1px] h-[0.001px] border-primary2/50"
+            ></div>
+          </div>
+          <!--  -->
+          <div class="text-white flex flex-col gap-3">
+            <div class="text-4xl font-mono">2005</div>
+            <div class="">Milestone Two</div>
+            <div class="text-primary2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div class="p-10 flex flex-col gap-5">
+          <!-- underline -->
+          <div class="relative w-full">
+            <div
+              class="border-solid border-[2px] h-[5px] bg-primary2 border-primary2 absolute w-[25%]"
+            ></div>
+            <div
+              class="border-dotted border-[1px] h-[0.001px] border-primary2/50"
+            ></div>
+          </div>
+          <!--  -->
+          <div class="text-white flex flex-col gap-3">
+            <div class="text-4xl font-mono">2012</div>
+            <div class="">Milestone Three</div>
+            <div class="text-primary2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div class="p-10 flex flex-col gap-5">
+          <!-- underline -->
+          <div class="relative w-full">
+            <div
+              class="border-solid border-[2px] h-[5px] bg-primary2 border-primary2 absolute w-[25%]"
+            ></div>
+            <div
+              class="border-dotted border-[1px] h-[0.001px] border-primary2/50"
+            ></div>
+          </div>
+          <!--  -->
+          <div class="text-white flex flex-col gap-3">
+            <div class="text-4xl font-mono">2021</div>
+            <div class="">Milestone Four</div>
+            <div class="text-primary2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+      </div>
+      </div>
+
+      <!-- map  -->
+      <div class="h-full relative bg-primary3 w-full p-10">
+        <div class="overflow-hidden  right-0 h-fit">
+          <img src="/Assets/bg-design.svg" alt="" class="absolute h-full">
+        </div>
+        <div class="">
+        <div class="flex flex-col-reverse md:flex-row justify-center items-center h-full  bg-primary m-[1px]">
+          <div class="bg-primary gap-10 h-full ml-10 w-full md:w-fit flex flex-col z-10 mx-10 p-10">
+            <div class="">
+              <div class="text-primary2 text-2xl">Working Hours</div>
+              <div class="text-white">Monday to Sunday</div>
+              <div class="text-white">9:00 AM to 11:00Pm</div>
+            </div>
+            <div class="">
+              <div class="text-primary2 text-2xl">Location</div>
+              <div class="text-white">Street - 127, Ahmedabad , Gujarat
+                380062</div>
+            </div>
+            <div class="">
+              <div class="text-primary2 text-2xl">Contact Us</div>
+              <div class="text-white">+91 987654321</div>
+              <div class="text-white">example@gmail.com</div>
+            </div>
+          </div>
+          <div class="flex w-full  justify-center md:justify-end py-5 md:py-0 ">
+            <iframe class="z-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.2991870182!2d72.4149306201118!3d23.02015808505005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1718192102589!5m2!1sen!2sin" width="95%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- footer -->
+      <div class="flex flex-col font-serif bg-primary2 pt-5">
+        <div class="flex flex-col justify-around md:gap-10 items-center md:px-20">
+          <div class="w-full relative flex items-center flex-col">
+            <div class="text-white bg-black justify-center flex w-fit px-5 py-2">MAIZ</div>
+            <ul
+              class="flex w-full justify-evenly md:justify-center md:gap-20 md:text-xl text-primary capitalize   bg-primary2 py-5"
+            >
+              <li>
+                <a href="#" class="cursor-pointer">Home</a>
+              </li>
+              <li>
+                <a href="#" class="cursor-pointer">About</a>
+              </li>
+              <li>
+                <a href="#" class="cursor-pointer">Menu</a>
+              </li>
+              <li>
+                <a href="#" class="cursor-pointer">Venue</a>
+              </li>
+              <li>
+                <a href="#" class="cursor-pointer">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="cursor-pointer">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="flex my-6 border-t-[0.5px] border-black pt-10 justify-evenly w-full"
+        >
+          <div class="w-[50%] flex justify-center">
+            © 2024 | All rights reserved.
+          </div>
+          <div class="flex w-[50%] justify-center">
+            <ul class="flex justify-center gap-5 w-full">
+              <li>
+                <i class="fa-brands fa-instagram cursor-pointer"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-github cursor-pointer"></i>
+              </li>
+              <li>
+                <i class="fa-regular fa-envelope cursor-pointer"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-linkedin cursor-pointer"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-x-twitter cursor-pointer"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <script src="aboutUs.js"></script>
+  </body>
+</html>
