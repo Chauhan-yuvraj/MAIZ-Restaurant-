@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         'intel': ["Inter", "sans-serif"],
+        'Courgette' : ["Courgette", 'cursive']
       },
     },
   },
