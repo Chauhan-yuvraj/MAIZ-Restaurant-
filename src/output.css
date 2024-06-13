@@ -1393,11 +1393,6 @@ body {
     margin-right: 5rem;
   }
 
-  .lg\:mx-64{
-    margin-left: 16rem;
-    margin-right: 16rem;
-  }
-
   .lg\:mx-36{
     margin-left: 9rem;
     margin-right: 9rem;
@@ -1412,24 +1407,8 @@ body {
     margin-left: 3rem;
   }
 
-  .lg\:mt-10{
-    margin-top: 2.5rem;
-  }
-
-  .lg\:mt-20{
-    margin-top: 5rem;
-  }
-
-  .lg\:mt-\[5rem\]{
-    margin-top: 5rem;
-  }
-
   .lg\:mt-\[10rem\]{
     margin-top: 10rem;
-  }
-
-  .lg\:mt-36{
-    margin-top: 9rem;
   }
 
   .lg\:flex{
@@ -1518,16 +1497,6 @@ body {
     padding-right: 2.5rem;
   }
 
-  .lg\:px-36{
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-
-  .lg\:px-28{
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
   .lg\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1543,10 +1512,6 @@ body {
 
   .lg\:pr-20{
     padding-right: 5rem;
-  }
-
-  .lg\:pt-10{
-    padding-top: 2.5rem;
   }
 
   .lg\:text-start{
